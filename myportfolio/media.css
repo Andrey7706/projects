@@ -1,0 +1,112 @@
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 95%;
+    }
+    h1 {
+        letter-spacing: 5px;
+    }
+    .logo {
+        margin-right: 15%;
+    }
+    .left {
+        width: 46%;
+        margin-right: 4%;
+    }
+    .right {
+        width: 50%;
+    }
+    .merits__left, .merits__center, .merits__right {
+        margin-right: 7%;
+    }
+    .merits__right {
+        margin-right: 0;
+    }
+    .contact__left, .contact__right {
+        float: none;
+    }
+    .contact__right p {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .skill {
+        width: 26%;
+        margin-right: 0;
+    }
+    .skill__end {
+        width: 16%;
+        margin-right: 0;
+    }
+    .skill__desc {
+        padding-left: 2%;
+    }
+    .works img {
+        width: 32%;
+        margin-right: 1%;
+    }
+    .works img:nth-child(4) {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        float: none;
+        text-align: center;
+        margin-right: 0;
+    }
+    nav {
+        float: none;
+        text-align: center;
+    }
+    nav ul li {
+        margin-right: 10%;
+    }
+    nav ul li:nth-child(3) {
+        margin-right: 0;
+    }
+    .email {
+        float: none;
+        width: 115px;
+        margin: 0 auto;
+    }
+    h1 {
+        padding-top: 80px;
+    }
+    .arrow {
+        margin-top: 190px;
+    }
+    .left {
+        float: none;
+        width: 100%;
+    }
+    .right {
+        float: none;
+        width: 100%;
+    }
+    .merits, .contact {
+        width: 100%;
+    }
+    .contact__left, .contact__right {
+        float: left;
+    }
+    .contact__left {
+        margin-right: 10%;
+    }
+    .skill {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .merits__left, .merits__center, .merits__right {
+        float: none;
+        margin-bottom: 10px;
+    }
+    .contact__right p {
+        padding-left: 70px;
+    }
+    .works img {
+        width: 85%;
+    }
+}
